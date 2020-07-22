@@ -30,55 +30,55 @@ echo "<header>
     title=\"iframe1\"
     width=\"10%\"
     height=\"10%\"	
-	frameborder=\"0\"
-	src=\"new1.php\"
-	scrolling=\"no\">
+    frameborder=\"0\"
+    src=\"new1.php\"
+    scrolling=\"no\">
 </iframe>";
 //remember width 10% 
 //iframe in html is the tag to reserver a block of browser segment to show personalized data to the user.
-echo "<iframe id=\"navigation\"
-	title=\"navigation\"
-	width=\"80%\"
-	height=\"10%\"
-	frameborder=\"0\"
-	src=\"new1.1.php\"
-	scrolling=\"no\">
+echo "<iframe id=\"iframe2\"
+    title=\"iframe2\"
+    width=\"80%\"
+    height=\"10%\"
+    frameborder=\"0\"
+    src=\"new1.1.php\"
+    scrolling=\"no\">
 </iframe>";
-echo "<iframe id=\"photo\"
-	title=\"photo\"
-	width=\"10%\"
-	height=\"10%\"
-	frameborder=\"0\"
-	src=\"new1.2.1.php\"
-	scrolling=\"no\">
+echo "<iframe id=\"iframe3\"
+    title=\"iframe3\"
+    width=\"10%\"
+    height=\"10%\"
+    frameborder=\"0\"
+    src=\"new1.2.1.php\"
+    scrolling=\"no\">
 </iframe>
 </header>";
 //leftframe
-echo "<iframe id=\"leftside\"
-    title=\"leftside\"
+echo "<iframe id=\"iframe4\"
+    title=\"iframe4\"
     width=\"48%\"
     height=\"85%\"
-	frameborder=\"0\"
-	src=\"new1.4.php\"
-	scrolling=\"no\">
+    frameborder=\"0\"
+    src=\"new1.4.php\"
+    scrolling=\"no\">
 </iframe>";
-echo "<iframe id=\"rightside\"
-    title=\"rightside\"
+echo "<iframe id=\"iframe5\"
+    title=\"iframe5\"
     width=\"48%\"
     height=\"85%\"
-	frameborder=\"0\"
-	src=\"new1.3.php\"
-	scrolling=\"no\">
+    frameborder=\"0\"
+    src=\"new1.3.php\"
+    scrolling=\"no\">
 </iframe>";
 //footer
 echo "<footer>
-<iframe id=\"footer\"
-    title=\"footer\"
+<iframe id=\"iframe6\"
+    title=\"iframe6\"
     width=\"100%\"
     height=\"5%\"
-	frameborder=\"0\"
+    frameborder=\"0\"
     src=\"footer.php\"
-	scrolling=\"no\">
+    scrolling=\"no\">
 </iframe>
 </footer>";
 ?>

@@ -1,6 +1,7 @@
 <?php
 //new1.3.php
 //author:g
+//file for login and register. upload in dyncould/trng cloud storage to see you own website changes. please contact dynCOULD contact if your environment is having any issues.
 session_start();
 echo "<br>";
 echo "<style>

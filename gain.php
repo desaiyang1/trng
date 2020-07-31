@@ -25,6 +25,7 @@
 //-------------------------------------------------------------------------------
 
 session_start();
+//header
 echo "<header>
 <iframe id=\"iframe1\"
     title=\"iframe1\"
@@ -53,7 +54,7 @@ echo "<iframe id=\"iframe3\"
     scrolling=\"no\">
 </iframe>
 </header>";
-//leftframe
+//leftframe - main content
 echo "<iframe id=\"iframe4\"
     title=\"iframe4\"
     width=\"48%\"
@@ -62,6 +63,7 @@ echo "<iframe id=\"iframe4\"
     src=\"new1.4.php\"
     scrolling=\"no\">
 </iframe>";
+//rightframe - main content
 echo "<iframe id=\"iframe5\"
     title=\"iframe5\"
     width=\"48%\"

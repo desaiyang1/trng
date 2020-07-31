@@ -1,7 +1,11 @@
 <?php
-//new1.3.php
-//author:g
 session_start();
+$email = $_SESSION['email'];
+$exact_id = $_SESSION['exact_id'];
+$d = $_SESSION['schema'];
+$logsid = $_SESSION['logsid'];
+//new1.3.10.php
+//author:g
 echo "<br>";
 echo "<style>
 .loginform {
@@ -30,8 +34,8 @@ echo "<style>
 //main code
 echo "<div class=\"forlogindiv\">";
 echo "<p style=\"margin-top:1em;color:crimson;font-family:Monaco,courier,arial,helvetica;font-weight:bold;font-size:12px;\">
-	private ACCOUNT login </p>";
-echo "<form method=\"post\" action=\"new1.3.php\" target=\"_top\">
+	private account PASSWORD has been changed successfully. please continue: </p>";
+echo "<form method=\"post\" action=\"new1.3.10.php\" target=\"_top\">
 <label style=\"color:black;font-family:Monaco,courier,arial,helvetica;font-weight:bold;font-size:13px;\"> id:</label>
 <input style=\"width:255px;margin-left:31px;\" name=\"email\" type=\"text\" required>
 <br>
@@ -42,8 +46,7 @@ echo "<form method=\"post\" action=\"new1.3.php\" target=\"_top\">
 <br>
 <br>
 <input style=\"background-color:darkgreen;color:ghostwhite;text-shadow:white 1px 1px;font-family:Monaco,courier,arial,helvetica;font-size:11px;font-weight:bold;text-align:center;align:middle;\" name=\"login\" type=\"submit\" value=\"LOGIN\" formAction=\"forshot2.1.php\" target=\"_top\">
-<input style=\"margin-left:10px;background-color:darkgreen;color:ghostwhite;text-shadow:white 1px 1px;font-family:Monaco,courier,arial,helvetica;font-size:11px;font-weight:bold;text-align:center;align:middle;\" name=\"pwdchange\" type=\"submit\" value=\"passcode change\" formAction=\"forshot2.1.04.php\" target=\"_top\">
-
+<input style=\"margin-left:10px;background-color:darkseagreen;color:ghostwhite;text-shadow:white 1px 1px;font-family:Monaco,courier,arial,helvetica;font-size:11px;font-weight:bold;text-align:center;align:middle;\" name=\"pwdchange\" type=\"submit\" value=\"passcode change\" formAction=\"forshot2.1.04.php\" target=\"_top\">
 </form>";
 echo "<style>
 .registerNEW {
@@ -57,5 +60,4 @@ echo "<style>
 echo "<a class=\"registerNEW\" href=\"shot2.2.php\" target=\"_top\">register NEW</a>";
 echo "</div>";
 echo "<img style=\"margin-left:17em;\" src=\"floors.gif\"></img>";
-$newvariable 
 ?>

@@ -21,8 +21,8 @@ if ($exact_id > 0) {		// in future this will be updated to have more checks.
 		text-decoration:none;
 	}
 	</style>";
-	//note - file used nolock.php
-	echo"<a class=\"logo\" href=\"nolock.php\" target=\"_top\">dynCOULD</a>";
+	//note - file used arecnolock.php
+	echo"<a class=\"logo\" href=\"arecnolock.php\" target=\"_top\">dynCOULD</a>";
 }
 else {			//if the user is  not logged in the below code will be displayed.
 	echo "<style>
